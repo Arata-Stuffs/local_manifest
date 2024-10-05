@@ -28,6 +28,7 @@
         <project path="kernel/xiaomi/surya" name="temporary" remote="arata-labs" revision="krn" />
         <project path="device/xiaomi/surya/parts" name="temporary-xp" remote="arata-labs" revision="13" />
         <project path="firmware/xiaomi/surya" name="firmware_xiaomi_surya" remote="arata-labs" revision="tiramisu" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arata-hub" revision="13-arrow" />
 
         <!-- MiuiCamera -->
         <project path="device/xiaomi/surya-miuicamera" name="temporary-d1" remote="arata-labs" revision="camd" />
