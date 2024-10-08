@@ -30,7 +30,8 @@
         <project path="firmware/xiaomi/surya" name="firmware_xiaomi_surya" remote="arata-labs" revision="tiramisu" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arata-hub" revision="13-arrow" />
 
-        <project path="prebuilts/clang/host/linux-x86/clang-r498229" name="AnggaR96s/clang-r498229" remote="labs" revision="17" />
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="prebuilts_clang_host_linux-x86" remote="arata-hub" revision="clang-r498229b" />
 
         <!-- MiuiCamera -->
         <project path="device/xiaomi/surya-miuicamera" name="temporary-d1" remote="arata-labs" revision="camd" />
