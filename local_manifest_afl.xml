@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        <remote name="arata-labs"
+        sync-c="true"
+        sync-j="4"
+        fetch="https://gitlab.com/HinohArata" />
+
+        <remote name="arata-hub"
+        sync-c="true"
+        sync-j="4"
+        fetch="https://github.com/Arata-Stuffs" />
+
+        <remote name="hub"
+        sync-c="true"
+        sync-j="4"
+        fetch="https://github.com" />
+
+        <remote name="labs"
+        sync-c="true"
+        sync-j="4"
+        fetch="https://gitlab.com" />
+
+        <!-- Remove -->
+        <remove-project path="hardware/xiaomi" />
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="arata-hub" revision="afl" />
+        <project path="vendor/xiaomi/surya" name="HinohArata/vendor_xiaomi_surya" remote="hub" revision="qpr3" />
+        <project path="kernel/xiaomi/surya" name="temporary" remote="arata-labs" revision="krn" />
+        <project path="device/xiaomi/surya/parts" name="HinohArata/parts" remote="hub" revision="qpr3" />
+        <project path="firmware/xiaomi/surya" name="firmware_xiaomi_surya" remote="arata-labs" revision="tiramisu" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arata-hub" revision="fourteen-aosp" />
+
+        <!-- MiuiCamera -->
+        <project path="device/xiaomi/surya-miuicamera" name="HinohArata/device_xiaomi_surya-miuicamera" remote="hub" revision="4.7" />
+        <project path="vendor/xiaomi/surya-miuicamera" name="HinohArata/vendor_xiaomi_surya-miuicamera" remote="hub" revision="4.7" />
+
+        <!-- Keys -->
+        <project path="vendor/private-keys/keys" name="HinohArata/keys" remote="hub" revision="full" />
+
+</manifest>
